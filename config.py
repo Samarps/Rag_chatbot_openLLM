@@ -7,11 +7,10 @@ load_dotenv()
 
 # API KEYS
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-
 if not GEMINI_API_KEY:
     raise ValueError("Please set GEMINI_API_KEY in your .env file")
 
-# Paths (aligned with ingest.py)
+# Paths
 DATA_DIR = "data"
 INDEX_DIR = "faiss_index"
 INDEX_FILE = os.path.join(INDEX_DIR, "docs.index")
