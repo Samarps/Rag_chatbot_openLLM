@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Conda environment
+ragbot_llm/
+
+# FAISS and embeddings
+faiss_index/
+*.npy
+*.pkl
+*.bin
+*.pt
+
+# Data folder — keep the folder, ignore its contents
+data/*
+!data/.gitkeep
+
+# Logs and temp files
+*.log
+tmp/
+cache/
+outputs/
+
+# Environment / secrets
+.env
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

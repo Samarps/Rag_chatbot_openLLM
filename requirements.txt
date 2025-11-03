@@ -1,0 +1,27 @@
+# Core dependencies
+torch>=2.1.0
+transformers>=4.44.0
+accelerate>=0.33.0
+safetensors>=0.4.3
+google-genai
+
+# Quantization
+bitsandbytes>=0.44.0
+
+# Text embeddings + retrieval
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+
+# PDF handling
+pdfplumber>=0.10.3
+
+# Web UI
+streamlit>=1.30.0
+
+# Utilities
+tqdm>=4.66.0
+numpy>=1.24.0
+pickle-mixin>=1.0.2
+python-dotenv>=1.0.0
+
+# pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
